@@ -4,7 +4,7 @@
   "description": "A bot to learn networking",
   "main": "index.js",
   "scripts": {
-    "start": "node ,",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/daniellucas04/discord-ruby/issues"
   },
-  "homepage": "https://github.com/daniellucas04/discord-ruby#readme"
+  "homepage": "https://github.com/daniellucas04/discord-ruby#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
 }
